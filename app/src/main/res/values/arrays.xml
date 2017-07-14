@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_picture_menu">
+        <item>Take Picture</item>
+    </string-array>
+
+
+    <string-array name="items_id_type">
+        <item>Select ID type</item>
+        <item>Voters ID</item>
+        <item>Driver’s License No.</item>
+        <item>SSNIT No.</item>
+        <item>NHIS No.</item>
+        <item>National ID</item>
+        <item>Passport No.</item>
+    </string-array>
+
+    <string-array name="items_yes_or_no">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="items_mobile_money_use">
+        <item>Are you using Mobile Money?</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="items_section">
+        <item>S1</item>
+        <item>S2</item>
+        <item>S3</item>
+        <item>S4</item>
+    </string-array>
+
+    <string-array name="items_lane">
+        <item>L1</item>
+        <item>L2</item>
+        <item>L3</item>
+        <item>L4</item>
+    </string-array>
+
+    <string-array name="items_bussiness_type">
+        <item>Shop</item>
+        <item>Hawkers</item>
+    </string-array>
+
+    <string-array name="items_bussiness_category">
+        <item>Food</item>
+        <item>Clothing</item>
+        <item>Electronics</item>
+        <item>Miscellaneous</item>
+    </string-array>
+
+    <string-array name="items_mobile_network">
+        <item>Airtel</item>
+        <item>MTN</item>
+        <item>Tigo</item>
+        <item>Vodafone</item>
+        <item>GLO</item>
+    </string-array>
+
+    <string-array name="items_markets">
+        <item>Asafo Market</item>
+        <item>Central Market</item>
+        <item>Kejetia Market</item>
+        <item>Kwadaso Market</item>
+    </string-array>
+
+    <string-array name="items_hawker">
+        <item>Truck Pushers</item>
+        <item>Seller</item>
+    </string-array>
+
+
+    <string-array name="items_shops">
+        <item>1947 Open Stall Occupants</item>
+        <item>956 Lock-up Occupants</item>
+        <item> 56 Super Lock-up Aboabo Station</item>
+        <item>Super FRG</item>
+        <item>38 FRI Super Lock-up</item>
+        <item>FRG Super Lock-up</item>
+        <item> FRI Super Lock-up</item>
+        <item>100 FRT</item>
+        <item> 33 FRI</item>
+    </string-array>
+
+    s
+
+</resources>
+
+

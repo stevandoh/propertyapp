@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/WizardPageContainer"
+    tools:context="com.greenfield.propertyapp.utils.wizard.views.ContactInfoFragment">
+
+    <TextView style="@style/WizardPageTitle" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:scrollbarStyle="outsideOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/WizardFormLabel"
+                android:text="@string/label_your_phone" />
+
+            <EditText
+                android:id="@+id/tvPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/hint_phone"
+                android:inputType="phone"
+                android:saveEnabled="false" />
+
+            <TextView
+                style="@style/WizardFormLabel"
+                android:text="@string/label_network" />
+
+            <!--<EditText-->
+            <!--android:id="@+id/tvNetwork"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="@string/hint_network"-->
+            <!--android:inputType="textEmailAddress"-->
+            <!--android:saveEnabled="false" />-->
+            <AutoCompleteTextView
+                android:id="@+id/tvNetwork"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint="@string/hint_network"
+                android:inputType="text"
+                android:saveEnabled="false" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

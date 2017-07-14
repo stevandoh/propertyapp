@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/WizardPageContainer"
+    tools:context="com.greenfield.propertyapp.utils.wizard.views.DatePickerFragment">
+
+    <TextView style="@style/WizardPageTitle" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbarStyle="outsideOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <io.blackbox_vision.datetimepickeredittext.view.DatePickerEditText
+                android:id="@+id/datePickerEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:hint="@string/select_date"
+                app:minDate="01/01/1900"
+                app:maxDate="01/01/2050"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

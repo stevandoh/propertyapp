@@ -1,0 +1,78 @@
+package com.greenfield.propertyapp.utils.wizard.pages;
+
+import android.support.v4.app.Fragment;
+import android.text.TextUtils;
+
+import com.greenfield.propertyapp.utils.wizard.model.ModelCallbacks;
+import com.greenfield.propertyapp.utils.wizard.model.ReviewItem;
+import com.greenfield.propertyapp.utils.wizard.views.DatePickerFragment;
+import com.greenfield.propertyapp.utils.wizard.views.ImageFragment;
+import com.greenfield.propertyapp.utils.wizard.views.TextFragment;
+
+import java.util.ArrayList;
+import java.util.Date;
+
+/**
+ * Created by root on 7/11/17.
+ */
+
+public class DatePickerPage extends TextPage {
+    @Override
+    public Fragment createFragment() {
+        return DatePickerFragment.create(getKey());
+    }
+
+    public DatePickerPage(ModelCallbacks callbacks, String title) {
+        super(callbacks, title);
+    }
+
+        public DatePickerPage setValue(String value) {
+        mData.putString(SIMPLE_DATA_KEY, value);
+        return this;
+    }
+}
+
+//public class ImagePage extends TextPage {
+//
+//    public ImagePage(ModelCallbacks callbacks, String title) {
+//        super(callbacks, title);
+//    }
+//
+//    @Override
+//    public Fragment createFragment() {
+//        return ImageFragment.create(getKey());
+//    }
+//
+//    public ImagePage setValue(String value) {
+//        mData.putString(SIMPLE_DATA_KEY, value);
+//        return this;
+//    }
+//}
+
+
+//    public TextPage(ModelCallbacks callbacks, String title) {
+//        super(callbacks, title);
+//    }
+//
+//    @Override
+//    public Fragment createFragment() {
+//        return TextFragment.create(getKey());
+//    }
+//
+//    @Override
+//    public void getReviewItems(ArrayList<ReviewItem> dest) {
+//        dest.add(new ReviewItem(getTitle(), mData.getString(SIMPLE_DATA_KEY),
+//                getKey()));
+//
+//    }
+//
+//    @Override
+//    public boolean isCompleted() {
+//        return !TextUtils.isEmpty(mData.getString(SIMPLE_DATA_KEY));
+//    }
+//
+//    public TextPage setValue(String value) {
+//        mData.putString(SIMPLE_DATA_KEY, value);
+//        return this;
+//    }
+//}
